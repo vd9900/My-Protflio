@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/vd9900/My-Protflio/static/css/main.91733673.css",
-    "main.js": "/vd9900/My-Protflio/static/js/main.0dd161eb.js",
-    "static/media/myprofile.jpg": "/vd9900/My-Protflio/static/media/myprofile.1788bbffc2eb195b3735.jpg",
-    "static/media/profile.png": "/vd9900/My-Protflio/static/media/profile.5c2ad955bec24024602e.png",
-    "index.html": "/vd9900/My-Protflio/index.html",
-    "main.91733673.css.map": "/vd9900/My-Protflio/static/css/main.91733673.css.map",
-    "main.0dd161eb.js.map": "/vd9900/My-Protflio/static/js/main.0dd161eb.js.map"
+    "main.css": "/My-Protflio/static/css/main.91733673.css",
+    "main.js": "/My-Protflio/static/js/main.6ea147d3.js",
+    "static/media/myprofile.jpg": "/My-Protflio/static/media/myprofile.1788bbffc2eb195b3735.jpg",
+    "static/media/profile.png": "/My-Protflio/static/media/profile.5c2ad955bec24024602e.png",
+    "index.html": "/My-Protflio/index.html",
+    "main.91733673.css.map": "/My-Protflio/static/css/main.91733673.css.map",
+    "main.6ea147d3.js.map": "/My-Protflio/static/js/main.6ea147d3.js.map"
   },
   "entrypoints": [
     "static/css/main.91733673.css",
-    "static/js/main.0dd161eb.js"
+    "static/js/main.6ea147d3.js"
   ]
 }
