@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/My-Protflio/static/css/main.3a23c395.css",
-    "main.js": "/My-Protflio/static/js/main.1e198347.js",
+    "main.css": "/My-Protflio/static/css/main.ff135cac.css",
+    "main.js": "/My-Protflio/static/js/main.7a92bf5c.js",
     "static/media/myprofile.jpg": "/My-Protflio/static/media/myprofile.1788bbffc2eb195b3735.jpg",
     "static/media/profile.png": "/My-Protflio/static/media/profile.5c2ad955bec24024602e.png",
     "static/media/myResume.pdf": "/My-Protflio/static/media/myResume.731e2aee8e983333cf07.pdf",
     "index.html": "/My-Protflio/index.html",
-    "main.3a23c395.css.map": "/My-Protflio/static/css/main.3a23c395.css.map",
-    "main.1e198347.js.map": "/My-Protflio/static/js/main.1e198347.js.map"
+    "main.ff135cac.css.map": "/My-Protflio/static/css/main.ff135cac.css.map",
+    "main.7a92bf5c.js.map": "/My-Protflio/static/js/main.7a92bf5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a23c395.css",
-    "static/js/main.1e198347.js"
+    "static/css/main.ff135cac.css",
+    "static/js/main.7a92bf5c.js"
   ]
 }
