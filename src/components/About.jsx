@@ -22,10 +22,10 @@ const About = () => {
             About
           </p>
         </div>
-        <div  className="flex flex-col items-center gap-5 sm:flex-row md:gap-20 md:pt-8">
+        <div  className="flex  flex-col items-center gap-5 sm:flex-row md:gap-20 md:pt-8">
           <div className=" sm:p-4 px-4 py-2 flex sm:w-screen   flex-row items-center justify-center ">
             <img
-              className="rounded-full w-64 h-64   skew-x-2  origin-bottom sm:w-72 sm:h-72 object-cover  border-solid border-4 border-gray-500 "
+              className="rounded-full w-64 h-64   skew-x-2  origin-bottom md:w-72 md:h-72 object-cover  border-solid border-4 border-gray-500 "
               src={myProfile}
               alt="mine"
             />

@@ -12,7 +12,7 @@ const Contact = () => {
             text me
           </p>
           <p className="py-6">
-            I just can't stop checking my phone for you messges{" "}
+            I just can't stop checking my phone for your messges.
           </p>
         </div>
 

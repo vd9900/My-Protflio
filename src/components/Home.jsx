@@ -9,12 +9,12 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="min-h-screen md:h-screen w-full pt-10  take-up box-shadow"
+      className="min-h-screen md:h-screen w-full pt-10  take-up box-shadow flex flex-col items-center justify-center"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col gap-20 items-center h-full p-10 md:flex-row">
         <div className="flex flex-col justify-center h-full sm:w-2/3">
-          <div className="max-sm:py-3  h-40 ">
-            <h3 className="text-4xl sm:text-5xl  font-bold font-mono text-gray-300">
+          <div className="max-sm:py-3  h-40 max-sm:w-72  p-2 ">
+            <h3 className="text-3xl md:text-4xl  lg:w-96 font-bold font-mono text-gray-300">
               <Typewriter
                 options={{
                   cursor: "_",
@@ -26,12 +26,12 @@ const Home = () => {
                     .typeString("Hey 👋, thank you for visiting! ")
                     .pauseFor(1000)
                     .deleteAll()
-                    .typeString("I'm a web developer.")
-                    .pauseFor(1000)
-                    .deleteAll()
-                    .typeString("I love to code.")
-                    .pauseFor(1000)
-                    .deleteAll()
+                    // .typeString("I'm a web developer.")
+                    // .pauseFor(1000)
+                    // .deleteAll()
+                    // .typeString("I love to code.")
+                    // .pauseFor(1000)
+                    // .deleteAll()
                     .start();
                 }}
               />
@@ -43,7 +43,7 @@ const Home = () => {
               to="projects"
               smooth
               duration={500}
-              className=" text-gray-300 font-mono hover:translate-y-2 duration-300 text-xl h-12 w-fit px-6 py-3 my-2 flex items-center
+              className=" text-gray-300 font-mono hover:translate-y-1 duration-500 text-xl h-12 w-fit px-6 py-3 my-2 flex items-center
 rounded-md cursor-pointer btn btn-91"
             >
               my work
@@ -55,7 +55,7 @@ rounded-md cursor-pointer btn btn-91"
               target="_blank"
               smooth
               duration={500}
-              className="font-mono hover:translate-y-2 duration-300 text-gray-300 w-fit h-12 px-6 py-3 my-2 flex items-center rounded-md cursor-pointer btn"
+              className="font-mono hover:translate-y-1 duration-300 text-gray-500 w-fit h-12 px-6 py-3 my-2 flex items-center rounded-md cursor-pointer btn"
             >
               Resume
               <span className="">
