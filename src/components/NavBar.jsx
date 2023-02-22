@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { BsCodeSlash } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
@@ -27,16 +28,20 @@ const NavBar = () => {
   return (
     <div className="z-50 flex justify-between items-center w-full h-16 px-4 text-white bg-black fixed">
       <div>
-        <h1 className="text-3xl logo-text ml-2">Mr.vd</h1>
+        <div className="text-3xl font-mono ml-2 flex gap-2 items-center justify-center">
+          <Link to={"home"} className="cursor-pointer" smooth duration={600}>
+            <BsCodeSlash />
+          </Link>
+        </div>
       </div>
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
+            className="px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105 duration-200"
           >
-            <Link to={link} smooth duration={500}>
+            <Link to={link} smooth duration={600}>
               {link}
             </Link>
           </li>
@@ -51,7 +56,7 @@ const NavBar = () => {
       </div>
 
       {nav && (
-        <ul className=" flex flex-col justify-center items-center absolute top-0 left-0 w-screen h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
+        <ul className=" flex flex-col justify-center items-center absolute top-0 left-0 w-screen h-screen take-up  text-gray-300">
           {links.map(({ id, link }) => (
             <li
               key={id}

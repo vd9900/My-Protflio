@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+  margin: 0;
+  padding: 0;
+}
+.take-up {
+  background: rgb(8, 8, 8);
+  background: linear-gradient(
+    18deg,
+    rgba(8, 8, 8, 1) 27%,
+    rgba(5, 3, 40, 1) 68%
+  );
+}
+.take-down {
+  background: rgb(5, 3, 40);
+  background: linear-gradient(
+    18deg,
+    rgba(5, 3, 40, 1) 27%,
+    rgba(8, 8, 8, 1) 70%
+  );
+}
+
+.btn {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    13deg,
+    rgb(55, 51, 51) 0%,
+    rgba(6, 2, 45, 0.583) 78%
+  );
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25),
+    inset 0px 3px 9px rgba(255, 255, 255, 0.3),
+    inset 0px 1px 1px rgba(255, 255, 255, 0.6),
+    inset 0px -8px 36px rgba(0, 0, 0, 0.3),
+    inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+}
+.border-btn{
+  border-color: rgb(0, 0, 0);
+  border-color: linear-gradient(
+    13deg,
+    rgb(55, 51, 51) 0%,
+    rgba(6, 2, 45, 0.583) 78%
+  );
+}
+

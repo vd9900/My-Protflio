@@ -11,13 +11,13 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div>
+    <>
       <NavBar />
       <Home />
       <About />
       <Projects />
       <Contact />
-    </div>
+    </>
   );
 }
 
